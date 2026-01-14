@@ -23,3 +23,12 @@ var generate = function (numRows) {
 
   return array;
 };
+
+// Key to rememre- currentRow[j] = previousRow[j - 1] + previousRow[j]
+// First element → 1
+
+// Last element → 1
+
+// Middle → sum of two above numbers
+
+// Each row grows by 1 element
